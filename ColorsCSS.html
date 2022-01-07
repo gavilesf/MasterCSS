@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        body {
+            margin: 0;
+            background-color: #edeae5;
+            color: #0c0c0b;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #026670;
+            color: #edeae5;
+            text-align: center;
+            height:2rem;
+        }
+
+        footer p {
+            /*margin: 24px auto;*/
+            position: relative;
+            bottom:7px;
+            font-size: 0.9rem;
+            /*box-sizing:border-box;*/
+        }
+        footer p:hover {
+            font-size: 0.91rem;
+        }
+        h1::first-letter{
+            font-size: 42px;
+            color:hotpink;
+            font-style: italic;
+
+        } 
+        ul{
+            list-style: none;
+        }
+        ul li:first-child{
+            color:red;
+        } 
+        .dropdown-content a{
+            display:none;
+        }
+        
+        .dropdown:hover .dropdown-content a{
+            display:block;
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Heading</h1>
+        <div class="dropdown">
+            <a href="#">Items</a>
+            <div class="dropdown-content">
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </header>
+    <section>
+    </section>
+    <footer>
+        <p>&#xA9; 2021 | Jóvenes | Verdad y Gracia | Ags, México</p>
+    </footer>
+</body>
+
+</html>

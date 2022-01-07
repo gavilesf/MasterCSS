@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 15rem;
+        height: 15rem;
+        margin: 5rem auto;
+        background-color: #e9dbf8;
+        border-radius: 0.4rem;
+        font-size: 2rem;
+        color: #a44af8;
+        text-align: center;
+        box-shadow: 5px 5px 10px #bd76ff;
+        position: relative;
+        animation-name: anim;
+        animation-duration: 8s;
+    }
+
+    @keyframes anim {
+        /* from {
+            left: 0;
+            top: 0;
+            background-color: #e9dbf8;
+        }
+
+        to {
+            left: 20rem;
+            background-color: #dcc4f7;
+
+        } */
+        0% {
+            left: 0;
+            top: 0;
+            background-color: #e9dbf8;
+        }
+
+        25% {
+            left: 20rem;
+            top:0;
+            background-color: #dcc4f7;
+
+        }
+
+        50% {
+            left: 20rem;
+            top:20rem;
+            background-color: #cdabf3;
+
+        }
+
+        75% {
+            left: 0;
+            top:20rem;
+            background-color: #b985f5;
+
+        }
+
+        100% {
+            left: 0;
+            top:0;
+            background-color: #af70f3;
+
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="box">Box</div>
+</body>
+
+</html>
